@@ -1,0 +1,60 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* header{
+    background-color: rgba(206, 77, 37, 0.856);
+} */
+.jumbotron{
+    padding-bottom: 120px;
+}
+.jumbotron h1{
+    animation-name: ltr;
+    animation-timing-function: cubic-bezier(95,54,67,65);
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    position: relative;
+    font-size: 80px;
+}
+.jumbotron p{
+    animation-name: ltr;
+    animation-timing-function: cubic-bezier(95,54,67,65);
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    position: relative;
+    font-size: 30px;
+}
+.jumbotron hr{
+    animation-name: ltr;
+    animation-timing-function: cubic-bezier(95,54,67,65);
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    position: relative;
+}
+.jumbotron a{
+    animation-name: atr;
+    animation-timing-function: cubic-bezier(95,54,67,65);
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    position: relative;
+}
+@keyframes ltr{
+    from{left: -600; color: transparent;}
+    to{left: 0; color: black; transition: 2s;}
+}
+@keyframes atr{
+    from{left: -600; color: transparent;}
+    to{left: 0; color: white; transition: 2s;}
+}
+#margins{
+    margin-top: 35px;
+}
+.crd1{
+    margin-bottom: 25px;
+    border: 1px solid black;
+}
